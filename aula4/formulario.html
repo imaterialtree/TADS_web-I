@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p align="center"><font size="6" color="red"><strong>Responda o formulário para ganhar 1000 robux</strong></font></p>
+    <form>
+        <label for="fname">Primeiro nome:</label><br>
+        <input type="text" id="fname" name="fname" autofocus required><br>
+        <label for="lname">Sobrenome:</label><br>
+        <input type="text" id="lname" name="lname" required><br>
+
+        <label for="tel">Telefone:</label><br>
+        <input type="tel" id="tel" name="tel" placeholder="## #####-####" pattern="[0-9]{2} [0-9]{5}-[0-9]{4}" maxlength="13" required><br>
+
+        <label for="dataNasc">Data de nascimeto</label><br>
+        <input type="date" id=dataNasc name="dataNasc"><br>
+
+        <label for="#contas">Quantas contas você tem?</label><br>
+        <input type="number" id="#contas"><br>
+        <br>
+
+        Você é menino ou menina?<br>
+        <input type="radio" id="sex-sim" name="sex" value="sim">
+        <label for="sex-sim">Sim</label>
+        <input type="radio" id="sex-nao" name="sex" value="não">
+        <label for="sex-nao">Não</label>
+        <input type="radio" id="sex-naosei" name="sex" value="não sei">
+        <label for="sex-naosei">Não sei</label><br>
+        <br>
+        Que presente você gostaria de ganhar? <br>
+        <input type="checkbox" name="bike" id="gift-bike">
+        <label for="gift-bike">Bicicleta</label><br>
+        <input type="checkbox" name="skate" id="gift-skate">
+        <label for="gift-skate">Skate</label><br>
+        <input type="checkbox" name="xbox" id="gift-xbox">
+        <label for="gift-xbox">xBox one</label><br>
+        <input type="checkbox" name="ps4" id="gift-ps4">
+        <label for="gift-ps4">PS4</label><br>
+        <br>
+        <label for="fcor">Escolha sua cor</label>
+        <input type="color" name="fcor" id="fcor"><br>
+        <label for=range>Precisão</label>
+        <input type="range" name="range" id="range">
+        <label for="range">Velocidade</label><br>
+        <label for="select">Cartão de crédito: </label>
+        <select name="select" id="select">
+            <option value="visa">Visa</option>
+            <option value="master card">Master Card</option>
+            <option value="nubank">Nubank</option>
+            <option value="inter">Inter</option>
+        </select>
+        <br>
+        <br>
+        <label for="bio">Sua bio</label><br>
+        <textarea name="bio" id="bio" cols="30" rows="10"></textarea><br>
+        <label for="site">Seu site</label><br>
+        <input type="url" name="site"></input><br>
+
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+</body>
+</html>
